@@ -7,7 +7,7 @@ cliente1 = Cliente("Juan","Perez",28,"juan@juan.com")
 cliente2 = Cliente("Pedro","Fernandez",25,"pedro@pedro.com")
 cliente3 = Cliente("Sandra","Aguirre",50,"sandra@sandra.com")
 
-"""
+
 # Metodo 1 = getInfo
 
 print(cliente.getInfo())
@@ -28,13 +28,11 @@ print(cliente.getEmail())
 print(cliente1.getEmail())
 print(cliente2.getEmail())
 print(cliente3.getEmail())
-"""
+
 
 # Utilización de __str__
 print(cliente1)
 
-# Metodo 4 = getDia
 
-print(cliente.setDia())
 
 
