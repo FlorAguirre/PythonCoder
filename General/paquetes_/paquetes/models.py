@@ -1,3 +1,5 @@
+
+
 class Cliente:
 
 
@@ -6,6 +8,8 @@ class Cliente:
         self.apellido = apellido
         self.edad = edad
         self.email = email
+
+      
 
     def setNombre(self, nombre):
         self.nombre = nombre
@@ -38,10 +42,14 @@ class Cliente:
         info += "\n Apellido: " + self.getApellido()
         info += "\n Edad: " + str(self.getEdad())
         info += "\n Email: " + str(self.getEmail())
+        
 
         return info
 
-  
 
 
-    
+
+# Utilización de __str__
+    def __str__(self):
+        texto = "Se ha registrado el usuario {0}"
+        return texto.format(self.nombre)
