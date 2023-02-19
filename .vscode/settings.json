@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./General/paquetes_",
+        "./General/paquetes_/paquetes"
+    ]
+}

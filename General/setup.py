@@ -8,6 +8,6 @@ setup(
     author = "Aguirre Florencia",
     author_email= "floraguirre1598@gmail.com",
 
-    packages = ["paquetes_"]
+    packages = ["paquetes1"]
 
 )
